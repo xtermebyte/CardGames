@@ -1,0 +1,11 @@
+C:\D\Exercise\Angular\Cards\CardGames\CardGames\bin\Debug\netcoreapp2.0\CardGames.deps.json
+C:\D\Exercise\Angular\Cards\CardGames\CardGames\bin\Debug\netcoreapp2.0\CardGames.runtimeconfig.json
+C:\D\Exercise\Angular\Cards\CardGames\CardGames\bin\Debug\netcoreapp2.0\CardGames.runtimeconfig.dev.json
+C:\D\Exercise\Angular\Cards\CardGames\CardGames\bin\Debug\netcoreapp2.0\CardGames.dll
+C:\D\Exercise\Angular\Cards\CardGames\CardGames\bin\Debug\netcoreapp2.0\CardGames.pdb
+C:\D\Exercise\Angular\Cards\CardGames\CardGames\obj\Debug\netcoreapp2.0\CardGames.csproj.CoreCompileInputs.cache
+C:\D\Exercise\Angular\Cards\CardGames\CardGames\obj\Debug\netcoreapp2.0\CardGames.AssemblyInfoInputs.cache
+C:\D\Exercise\Angular\Cards\CardGames\CardGames\obj\Debug\netcoreapp2.0\CardGames.AssemblyInfo.cs
+C:\D\Exercise\Angular\Cards\CardGames\CardGames\obj\Debug\netcoreapp2.0\CardGames.dll
+C:\D\Exercise\Angular\Cards\CardGames\CardGames\obj\Debug\netcoreapp2.0\CardGames.pdb
+C:\D\Exercise\Angular\Cards\CardGames\CardGames\obj\Debug\netcoreapp2.0\CardGames.csprojResolveAssemblyReference.cache

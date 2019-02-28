@@ -1,0 +1,21 @@
+<div style="background-color:white;width:40%;margin:auto;padding-top:10px">
+
+  <div style="float: right;padding-right:20px;padding-top:10px">
+    <button (click)="newgame()" style="width:80px;background-color:blue;border:none;color:white;height:40px">Start</button>&nbsp;&nbsp;&nbsp;
+  Total Flips: {{flipcount}}
+  </div>
+  <p>
+    {{title}}
+  </p>
+  
+  <br /><br />
+
+  <div style="width:70%;overflow:hidden;margin:auto;">
+    <ul>
+      <li *ngFor='let card of cardList' id="trow">
+        <a  *ngIf="card.show">
+          <img src="{{card.showImage}}" height="150px" [@CardFlipState]="card.flip" (@CardFlipState.done)="onDone($event, card)" (click)="OnCardClick(card)"/>
+        </a>
+      </li>
+    </ul>
+  </div>
