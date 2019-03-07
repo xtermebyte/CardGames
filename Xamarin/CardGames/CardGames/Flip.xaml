@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:flv="clr-namespace:DLToolkit.Forms.Controls;assembly=DLToolkit.Forms.Controls.FlowListView"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             x:Class="CardGames.Flip">
+
+    <ContentPage.Content>
+    <StackLayout Padding="10,20, 0, 0" BackgroundColor="Green">
+        <StackLayout>
+        <Grid>
+        <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*"></ColumnDefinition>
+        <ColumnDefinition Width="*"></ColumnDefinition>
+        <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Image x:Name="HeaderLogo" Grid.Column="0" Source="CardGamesSmall.png" HeightRequest="75"></Image>
+        <Label Text="Flippy" VerticalTextAlignment="Center" Font="Comic Scan" FontSize="Large" TextColor="White" Grid.Column="1"></Label>
+        </Grid>
+        </StackLayout>
+        <Button Text="New Game" BackgroundColor="Blue" TextColor="White" FontSize="Medium" HeightRequest="40">
+        </Button>
+        
+        <flv:FlowListView x:Name="cardListView" FlowColumnCount="4" SeparatorVisibility="None" HasUnevenRows="false" RowHeight="140">
+            <flv:FlowListView.FlowColumnTemplate>
+                <DataTemplate>
+                    <StackLayout Padding="5,5,5,5">
+                        <Image Source="{Binding ShowImageURL}" Opacity="{Binding Opacity}" HeightRequest="135">
+                            </Image>
+                    </StackLayout>
+                </DataTemplate>
+            </flv:FlowListView.FlowColumnTemplate>
+        </flv:FlowListView>        
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
